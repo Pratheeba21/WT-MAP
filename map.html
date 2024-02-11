@@ -18,14 +18,18 @@
         border-color: darkorange;
         border-style: double;
         border-width: thick;
-        max-width: max-content;
-        max-height: max-content;
+      }
+      in {
+        height: fit-content;
+        width: fit-content;
       }
     </style>
   </head>
   <body align="center" bgcolor="blue">
     <p>INDIA-MAP</p>
-    <img src="india.png" alt="unable to load" usemap="#india" />
+    <div class="in">
+      <img src="india.png" alt="unable to load" usemap="#india" />
+    </div>
     <map name="india">
       <area
         shape="poly"
