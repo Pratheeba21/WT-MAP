@@ -1,2 +1,0 @@
-# WT-MAP
-India map 
